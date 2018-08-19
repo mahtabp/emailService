@@ -39,7 +39,7 @@ Note: To run the integration tests successfully we should provide correct API ke
 ### Deployment
 * Option 1:
 This is the easiest and fastest option. download the <a href="https://code.visualstudio.com/tutorials/app-service-extension/getting-started"> Azure app-service-extension plugin for VS code </a>
-login to azure portal and deploy to siteminderchallenge web app.
+login to azure portal and deploy to <u>siteminderchallenge web app</u> web app.
 
 * option 2:
 1. If you don't have Azure CLI you can download if from <a href="https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest"> Azure CLI</a>
