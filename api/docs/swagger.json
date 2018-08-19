@@ -1,0 +1,105 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "send email via providers",
+        "version": "1.0.0",
+        "title": "Swagger send email api"
+    },
+    "tags": [
+        {
+            "name": "email",
+            "description": "Send emails via service providers"
+        },
+        {
+            "name": "status",
+            "description": "Checks if API is up and running"
+        }
+    ],
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/send": {
+            "post": {
+                "tags": [
+                    "email"
+                ],
+                "summary": "Send email via email providers",
+                "description": "",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/email"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request"
+                    }
+                }
+            }
+        },
+        "/": {
+            "get": {
+                "tags": [
+                    "status"
+                ],
+                "description": "API status check",
+                "responses": {
+                    "200": {
+                        "description": "Service is up"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "email": {
+            "type": "object",
+            "properties": {
+                "from": {
+                    "type": "string",
+                    "required": true,
+                    "example": "mahtab.paydar@gmail.com"
+                },
+                "to": {
+                    "type": "string",
+                    "required": true,
+                    "example": "mahtab.paydar@gmail.com"
+                },
+                "subject": {
+                    "type": "string",
+                    "required": true,
+                    "example": "Hello from email service"
+                },
+                "text": {
+                    "type": "string",
+                    "required": true,
+                    "example": "Dear user, Thanks you and good luck."
+                },
+                "cc": {
+                    "type": "string",
+                    "example": "john@test.com"
+                },
+                "bcc": {
+                    "type": "string",
+                    "example": "sarah@test.com"
+                }
+            }
+        }
+    }
+}

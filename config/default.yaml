@@ -1,0 +1,9 @@
+node:
+  port: 3002
+
+mailGun:
+  apiKey: ''
+  domain: ''
+
+sendGrid:
+  apiKey: ''
