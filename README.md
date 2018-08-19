@@ -83,7 +83,7 @@ git push azure master
 * Some queue mechanism & retry logic in case both providers are down. 
 option 1. Save the failed payload in a dynamo db and have a job to read from the table and send the emails
 option 2. publish the failed payload to the event bus and have a background worker to read and send again
-* deploy to other services eg. Amazon web servers 
+* Deploying to Azure was a new experience. Try other web servers eg. Amazon web servers 
 * CI for automated deployment 
 * encrypting API keys
 * some basic request body validation can be done by npm packages such as Joi. we don't need to build the wheel again.
