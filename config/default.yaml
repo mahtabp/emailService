@@ -2,8 +2,8 @@ node:
   port: 3002
 
 mailGun:
-  apiKey: ''
-  domain: ''
+  apiKey: '1019795535c2028fd7c3cb937cb37e40-6b60e603-b3ba0d5d'
+  domain: 'sandboxa9f66a46a6c949c79ecf7b1cbb269d63.mailgun.org'
 
 sendGrid:
-  apiKey: ''
+  apiKey: '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'
