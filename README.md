@@ -38,7 +38,7 @@ Note: To run the integration tests successfully we should provide correct API ke
 
 ### Deployment
 ```
-// TODO: 
+// TODO: setup CI
 ```
 
 ## TODO:
