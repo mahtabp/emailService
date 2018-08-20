@@ -27,9 +27,8 @@ the API will be hosted on port 3000 if the environment variable is not set:
 http://localhost:3000
 
 ```
-1. npm install 
-2. tsc
-3. npm run build
+npm install 
+npm run build
 ```
 
 ### Run Tests
