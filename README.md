@@ -32,7 +32,9 @@ npm run build
 ```
 
 ### Run Tests
+```
 npm run test
+```
 Note: To run the integration tests successfully we should provide correct API keys
 
 ### Deployment
