@@ -51,7 +51,7 @@ IP: http://18.191.127.172:3002/docs/
 ```
 ssh -i ~/.ssh/mahtab-amazon-key.pem ec2-user@ec2-18-191-127-172.us-east-2.compute.amazonaws.com
 git clone https://github.com/mahtabp/emailService.git
-cd workspace/emailService
+cd workspace/emailService/emailService
 npm install
 npm run build
 ```
